@@ -1,0 +1,180 @@
+/* =====================================
+   TABLETS
+===================================== */
+
+@media (max-width: 950px) {
+
+    .hero {
+
+        flex-direction:
+            column;
+
+        text-align:
+            center;
+    }
+
+    .hero-content {
+        max-width:
+            700px;
+    }
+
+    .hero-buttons,
+    .social-links {
+        justify-content:
+            center;
+    }
+
+    .hero-visual {
+        width:
+            min(100%, 600px);
+    }
+
+    .feature-grid,
+    .projects-grid {
+
+        grid-template-columns:
+            repeat(2,1fr);
+    }
+
+    .about-layout,
+    .contact-layout {
+
+        grid-template-columns:
+            1fr;
+
+    }
+
+    .about-image {
+        max-width:
+            600px;
+
+        margin:
+            auto;
+    }
+
+}
+
+
+/* =====================================
+   MOBILE
+===================================== */
+
+@media (max-width: 650px) {
+
+    .navbar {
+        padding:
+            15px 20px;
+    }
+
+    .nav-links {
+
+        position:
+            absolute;
+
+        top:
+            70px;
+
+        left:
+            0;
+
+        width:
+            100%;
+
+        background:
+            white;
+
+        flex-direction:
+            column;
+
+        align-items:
+            center;
+
+        padding:
+            25px;
+
+        display:
+            none;
+    }
+
+    body.dark .nav-links {
+        background:
+            #111827;
+    }
+
+    .nav-links.active {
+        display:
+            flex;
+    }
+
+    .menu-button {
+        display:
+            block;
+    }
+
+    .hero {
+        padding-top:
+            130px;
+    }
+
+    .hero h1 {
+        font-size:
+            55px;
+    }
+
+    .hero-description {
+        font-size:
+            17px;
+    }
+
+    .hero-buttons {
+
+        flex-direction:
+            column;
+
+    }
+
+    .stats {
+
+        grid-template-columns:
+            repeat(2,1fr);
+
+        gap:
+            30px;
+    }
+
+    .feature-grid,
+    .projects-grid {
+
+        grid-template-columns:
+            1fr;
+    }
+
+    .section {
+        padding:
+            80px 20px;
+    }
+
+    .section-heading h2 {
+        font-size:
+            35px;
+    }
+
+    .page-header h1 {
+        font-size:
+            45px;
+    }
+
+    .project-controls {
+
+        flex-direction:
+            column;
+    }
+
+    .footer-container {
+
+        grid-template-columns:
+            1fr;
+
+    }
+
+}

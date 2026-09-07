@@ -1,0 +1,69 @@
+[
+    {
+        "title": "Linux Automation Lab",
+        "category": "Linux",
+        "icon": "🐧",
+        "description": "A Linux administration lab containing Bash scripts, cron jobs, backups, log cleanup and system health checks.",
+        "technologies": [
+            "Linux",
+            "Bash",
+            "Cron"
+        ]
+    },
+    {
+        "title": "Network Troubleshooting Lab",
+        "category": "Networking",
+        "icon": "🌐",
+        "description": "A networking laboratory for practicing IP addressing, DNS, DHCP, subnetting, VLANs and connectivity troubleshooting.",
+        "technologies": [
+            "TCP/IP",
+            "DNS",
+            "DHCP",
+            "VLAN"
+        ]
+    },
+    {
+        "title": "Infrastructure Server Lab",
+        "category": "Linux",
+        "icon": "🖥️",
+        "description": "A virtual infrastructure environment containing Linux servers, users, groups, permissions, services and processes.",
+        "technologies": [
+            "Linux",
+            "Virtualization",
+            "SSH"
+        ]
+    },
+    {
+        "title": "Git Portfolio",
+        "category": "DevOps",
+        "icon": "🔀",
+        "description": "A Git-based project demonstrating repositories, commits, branches, remote repositories and version control.",
+        "technologies": [
+            "Git",
+            "GitHub",
+            "CLI"
+        ]
+    },
+    {
+        "title": "Shell Monitoring Script",
+        "category": "Linux",
+        "icon": "⚙️",
+        "description": "A Bash script that checks system resources and generates basic server health information.",
+        "technologies": [
+            "Bash",
+            "Linux",
+            "Automation"
+        ]
+    },
+    {
+        "title": "CI/CD Learning Lab",
+        "category": "DevOps",
+        "icon": "🚀",
+        "description": "A learning environment for understanding automated builds, testing, deployment pipelines and DevOps workflows.",
+        "technologies": [
+            "Git",
+            "CI/CD",
+            "DevOps"
+        ]
+    }
+]

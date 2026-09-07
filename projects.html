@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Projects | Mantu</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body>
+
+
+<header class="header">
+
+    <nav class="navbar">
+
+        <a href="index.html" class="logo">
+            <span>&lt;</span> Mantu.dev <span>/&gt;</span>
+        </a>
+
+        <ul class="nav-links" id="navLinks">
+
+            <li>
+                <a href="index.html">
+                    Home
+                </a>
+            </li>
+
+            <li>
+                <a href="about.html">
+                    About
+                </a>
+            </li>
+
+            <li>
+                <a href="projects.html"
+                   class="active">
+                    Projects
+                </a>
+            </li>
+
+            <li>
+                <a href="contact.html">
+                    Contact
+                </a>
+            </li>
+
+        </ul>
+
+        <div class="nav-actions">
+
+            <button id="themeToggle"
+                    class="icon-button">
+                🌙
+            </button>
+
+            <button id="menuToggle"
+                    class="menu-button">
+                ☰
+            </button>
+
+        </div>
+
+    </nav>
+
+</header>
+
+
+<main>
+
+
+<section class="page-header">
+
+    <p>MY WORK</p>
+
+    <h1>Projects</h1>
+
+    <p>
+        Some of the projects and labs I'm building
+        while learning.
+    </p>
+
+</section>
+
+
+<section class="section">
+
+    <!-- SEARCH -->
+
+    <div class="project-controls">
+
+        <input
+            type="text"
+            id="projectSearch"
+            placeholder="🔍 Search projects..."
+        >
+
+        <select id="categoryFilter">
+
+            <option value="all">
+                All Categories
+            </option>
+
+            <option value="Linux">
+                Linux
+            </option>
+
+            <option value="Networking">
+                Networking
+            </option>
+
+            <option value="DevOps">
+                DevOps
+            </option>
+
+        </select>
+
+    </div>
+
+
+    <!-- PROJECTS WILL BE LOADED HERE -->
+
+    <div id="projectsContainer"
+         class="projects-grid">
+
+    </div>
+
+</section>
+
+
+</main>
+
+
+<footer class="footer">
+
+    <div class="footer-bottom">
+
+        <p>
+            © 2026 Mantu.
+        </p>
+
+    </div>
+
+</footer>
+
+
+<script src="js/script.js"></script>
+<script src="js/projects.js"></script>
+
+</body>
+
+</html>
