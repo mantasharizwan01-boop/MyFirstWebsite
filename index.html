@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Interactive Website</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header class="header">
+
+        <nav class="navbar">
+
+            <div class="logo">
+                <span>&lt;</span> Mantu.dev <span>/&gt;</span>
+            </div>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="nav-buttons">
+
+                <button id="themeToggle" class="icon-btn">
+                    🌙
+                </button>
+
+                <button id="menuToggle" class="menu-btn">
+                    ☰
+                </button>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+
+    <!-- ================= HERO ================= -->
+
+    <section id="home" class="hero">
+
+        <div class="hero-content">
+
+            <p class="welcome">
+                👋 Welcome to my website
+            </p>
+
+            <h1>
+                Build.
+                <span>Learn.</span>
+                Grow.
+            </h1>
+
+            <p class="hero-text">
+                A modern interactive website built using
+                HTML, CSS and JavaScript.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#projects" class="btn primary">
+                    Explore Projects →
+                </a>
+
+                <a href="#contact" class="btn secondary">
+                    Contact Me
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="hero-card">
+
+            <div class="code-window">
+
+                <div class="window-top">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                </div>
+
+                <pre>
+<span class="purple">const</span> developer = {
+    name: <span class="green">"Mantu"</span>,
+    role: <span class="green">"IT Administrator"</span>,
+    skills: [
+        <span class="green">"Linux"</span>,
+        <span class="green">"Networking"</span>,
+        <span class="green">"Cloud"</span>,
+        <span class="green">"DevOps"</span>
+    ],
+
+    <span class="purple">start</span>() {
+        <span class="purple">return</span> <span class="green">"Keep Learning 🚀"</span>;
+    }
+};
+                </pre>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= ABOUT ================= -->
+
+    <section id="about" class="section">
+
+        <div class="section-title">
+
+            <p>GET TO KNOW ME</p>
+
+            <h2>About Me</h2>
+
+        </div>
+
+        <div class="about-container">
+
+            <div class="about-card">
+
+                <div class="profile-icon">
+                    💻
+                </div>
+
+                <h3>IT & Technology</h3>
+
+                <p>
+                    Passionate about infrastructure, Linux,
+                    networking, cloud technologies and automation.
+                </p>
+
+            </div>
+
+
+            <div class="about-card">
+
+                <div class="profile-icon">
+                    🚀
+                </div>
+
+                <h3>Continuous Learning</h3>
+
+                <p>
+                    Always learning new technologies and building
+                    practical projects to improve technical skills.
+                </p>
+
+            </div>
+
+
+            <div class="about-card">
+
+                <div class="profile-icon">
+                    ⚙️
+                </div>
+
+                <h3>Automation</h3>
+
+                <p>
+                    Interested in scripting, DevOps, CI/CD,
+                    cloud infrastructure and MLOps.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= STATS ================= -->
+
+    <section class="stats-section">
+
+        <div class="stat">
+
+            <h2 data-target="25">0</h2>
+
+            <p>Projects</p>
+
+        </div>
+
+
+        <div class="stat">
+
+            <h2 data-target="15">0</h2>
+
+            <p>Technologies</p>
+
+        </div>
+
+
+        <div class="stat">
+
+            <h2 data-target="500">0</h2>
+
+            <p>Hours Learning</p>
+
+        </div>
+
+
+        <div class="stat">
+
+            <h2 data-target="100">0</h2>
+
+            <p>Motivation %</p>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= SKILLS ================= -->
+
+    <section id="skills" class="section">
+
+        <div class="section-title">
+
+            <p>WHAT I WORK WITH</p>
+
+            <h2>Technical Skills</h2>
+
+        </div>
+
+
+        <!-- Search -->
+
+        <div class="search-container">
+
+            <input
+                type="text"
+                id="skillSearch"
+                placeholder="🔍 Search skills..."
+            >
+
+        </div>
+
+
+        <div class="skills-container" id="skillsContainer">
+
+            <div class="skill-card" data-name="Linux">
+
+                <div class="skill-icon">
+                    🐧
+                </div>
+
+                <h3>Linux</h3>
+
+                <p>
+                    Administration, shell scripting,
+                    permissions and automation.
+                </p>
+
+                <div class="progress">
+
+                    <div class="progress-bar" style="width: 80%">
+                    </div>
+
+                </div>
+
+                <span>80%</span>
+
+            </div>
+
+
+            <div class="skill-card" data-name="Networking">
+
+                <div class="skill-icon">
+                    🌐
+                </div>
+
+                <h3>Networking</h3>
+
+                <p>
+                    TCP/IP, DNS, DHCP, VLAN,
+                    subnetting and troubleshooting.
+                </p>
+
+                <div class="progress">
+
+                    <div class="progress-bar" style="width: 75%">
+                    </div>
+
+                </div>
+
+                <span>75%</span>
+
+            </div>
+
+
+            <div class="skill-card" data-name="Cloud">
+
+                <div class="skill-icon">
+                    ☁️
+                </div>
+
+                <h3>Cloud</h3>
+
+                <p>
+                    Microsoft 365, Google Workspace
+                    and cloud administration.
+                </p>
+
+                <div class="progress">
+
+                    <div class="progress-bar" style="width: 70%">
+                    </div>
+
+                </div>
+
+                <span>70%</span>
+
+            </div>
+
+
+            <div class="skill-card" data-name="DevOps">
+
+                <div class="skill-icon">
+                    🔧
+                </div>
+
+                <h3>DevOps</h3>
+
+                <p>
+                    Git, automation, CI/CD,
+                    containers and infrastructure.
+                </p>
+
+                <div class="progress">
+
+                    <div class="progress-bar" style="width: 60%">
+                    </div>
+
+                </div>
+
+                <span>60%</span>
+
+            </div>
+
+
+            <div class="skill-card" data-name="JavaScript">
+
+                <div class="skill-icon">
+                    🟨
+                </div>
+
+                <h3>JavaScript</h3>
+
+                <p>
+                    DOM manipulation, events,
+                    APIs and interactive websites.
+                </p>
+
+                <div class="progress">
+
+                    <div class="progress-bar" style="width: 65%">
+                    </div>
+
+                </div>
+
+                <span>65%</span>
+
+            </div>
+
+
+            <div class="skill-card" data-name="Git">
+
+                <div class="skill-icon">
+                    🔀
+                </div>
+
+                <h3>Git</h3>
+
+                <p>
+                    Version control, repositories,
+                    branches and collaboration.
+                </p>
+
+                <div class="progress">
+
+                    <div class="progress-bar" style="width: 70%">
+                    </div>
+
+                </div>
+
+                <span>70%</span>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= PROJECTS ================= -->
+
+    <section id="projects" class="section projects-section">
+
+        <div class="section-title">
+
+            <p>MY WORK</p>
+
+            <h2>Projects</h2>
+
+        </div>
+
+
+        <div class="projects-container">
+
+            <div class="project-card">
+
+                <span class="project-number">
+                    01
+                </span>
+
+                <h3>Linux Automation</h3>
+
+                <p>
+                    Shell scripts for backups,
+                    monitoring and automated maintenance.
+                </p>
+
+                <button class="project-btn"
+                    onclick="showProject('Linux Automation')">
+                    View Project →
+                </button>
+
+            </div>
+
+
+            <div class="project-card">
+
+                <span class="project-number">
+                    02
+                </span>
+
+                <h3>Network Monitoring</h3>
+
+                <p>
+                    Monitoring network devices,
+                    services and system health.
+                </p>
+
+                <button class="project-btn"
+                    onclick="showProject('Network Monitoring')">
+                    View Project →
+                </button>
+
+            </div>
+
+
+            <div class="project-card">
+
+                <span class="project-number">
+                    03
+                </span>
+
+                <h3>Infrastructure Lab</h3>
+
+                <p>
+                    Virtual machines, Linux servers,
+                    networking and virtualization.
+                </p>
+
+                <button class="project-btn"
+                    onclick="showProject('Infrastructure Lab')">
+                    View Project →
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= CONTACT ================= -->
+
+    <section id="contact" class="section">
+
+        <div class="section-title">
+
+            <p>GET IN TOUCH</p>
+
+            <h2>Contact Me</h2>
+
+        </div>
+
+
+        <form id="contactForm" class="contact-form">
+
+            <div class="input-group">
+
+                <label>Name</label>
+
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Enter your name"
+                >
+
+            </div>
+
+
+            <div class="input-group">
+
+                <label>Email</label>
+
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Enter your email"
+                >
+
+            </div>
+
+
+            <div class="input-group">
+
+                <label>Message</label>
+
+                <textarea
+                    id="message"
+                    rows="6"
+                    placeholder="Write your message..."
+                ></textarea>
+
+            </div>
+
+
+            <button type="submit" class="btn primary">
+                Send Message 🚀
+            </button>
+
+            <p id="formMessage"></p>
+
+        </form>
+
+    </section>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div class="footer-content">
+
+            <h3>&lt; Mantu.dev /&gt;</h3>
+
+            <p>
+                Built with HTML • CSS • JavaScript
+            </p>
+
+            <p>
+                © 2026 Mantu. All rights reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- SCROLL TO TOP -->
+
+    <button id="scrollTop" class="scroll-top">
+        ↑
+    </button>
+
+
+    <!-- PROJECT MODAL -->
+
+    <div id="projectModal" class="modal">
+
+        <div class="modal-content">
+
+            <button
+                class="close-modal"
+                onclick="closeModal()">
+                ×
+            </button>
+
+            <h2 id="modalTitle">
+                Project
+            </h2>
+
+            <p id="modalText">
+                Project information.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
